@@ -1,0 +1,74 @@
+/* selector { prop: value;} */
+* {
+  margin: 0;
+  --off-white: #FDFDFD;
+}
+
+body {
+  background-color: #13243e;
+  color: var(--off-white);
+}
+
+header {
+  text-align: center;
+}
+
+.header-pic {
+  height: 90px;
+}
+
+main {
+  width: 960px;
+  margin: 0 auto;
+}
+
+section {
+  border: 1px solid #8d4c27;
+  margin: 1rem;
+}
+
+#bio {
+  display: flex;
+}
+
+#bio img {
+  height: 150px;
+}
+
+.bio-info {
+  width: 100%;
+}
+
+.vertical {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nameDate {
+  display: flex;
+  justify-content: space-between;
+}
+
+.grayBox {
+    background-color: #535353;
+}
+
+#tech {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
+.tech-icon {
+  height: 150px;
+}
+
+figcaption {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
