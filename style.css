@@ -74,12 +74,23 @@ ul {
   padding: 0.5rem;
 }
 
-.tech-icon {
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+figure > img {
   height: 150px;
+  max-width: 150px;
 }
 
 figcaption {
   text-align: center;
+  max-width: 150px;
+  background-color: rgba(0,0,0,0.5);
+  position: relative;
+  bottom: 20px;
 }
 
 footer {
